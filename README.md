@@ -19,7 +19,7 @@
 
 ## Features
 
-- Once past the landing page to get started, players must first choose which colour cars they want out of 4 ooptions.
+- Once past the landing page to get started, players must first choose which colour cars they want out of 4 options.
 - Players take turns rolling the dice, when its first players turn, player 2's dice doesn't show and only player 1's dice shows. Then it switches once it's players 2's turn.
 - The higher the number the dice lands on, the further your car moves up!
 - Whoevers car passes the finish line first wins! And a notification pops up of which player won.
