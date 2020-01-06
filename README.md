@@ -13,7 +13,7 @@
 
 ## Technologies
 
-- [React Native](https://reactjs.org)
+- [React](https://reactjs.org)
 - [SCSS](https://sass-lang.com/)
 - [Axios](https://github.com/axios/axios)
 - [Node](https://nodejs.org/en/)
