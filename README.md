@@ -4,9 +4,7 @@
 
 **DragCity** is a two player turn based racing game where players take turns rolling a dice where based on the number you role determines how far your car moves forward. The first car to the finish line wins!
 
-## Screenshots
-
-<p style="text-align: center; font-weight: bold;">DragCity</p>
+## Screenshot
 
 ![Screenshot 1](Client/src/drag-horizontal.png)
 
