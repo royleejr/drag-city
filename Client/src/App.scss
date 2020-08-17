@@ -1,116 +1,120 @@
-
-
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  //   z-index: -5;
+}
 .track-bg {
-    background: url('./track.svg');
-    background-repeat:no-repeat;
-    background-size: cover;
-    display: relative;
-    z-index: -2;
-    height: 100vh;
+  background: url("./track.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  width: 320px;
+  height: 645px;
 }
 
 .abs-box {
-    display: absolute;
-    height: 100%;
+  display: absolute;
+  height: 100%;
 }
 
 .container {
-    display:flex;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+
+    &__p1 {
+      color: white;
+      font-size: 18px;
+      align-self: center;
+      font-family: Helvetica;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    &__invis {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    &__roll {
+      display: flex;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      align-self: center;
+      justify-content: center;
+      font-family: Helvetica;
+      text-align: center;
+    }
+  }
+
+  &__center {
+    display: flex;
+    flex-direction: row;
     height: 100%;
-    justify-content: space-between;
+    width: 50%;
 
-
-    &__left {
-        display:flex;
-        margin-top: 5px;
-        flex-direction: column;
-
-        &__p1 {
-            color: white;
-            font-size: 18px;
-            align-self: center;
-            font-family: Helvetica;
-            font-weight: 500;
-            text-align: center;
-        }
-
-        &__invis {
-            display:flex;
-            flex-direction: column;
-            align-self: center;
-        }
-
-        &__roll {
-            display:flex;
-            color:white;
-            font-size: 16px;
-            font-weight: 700;
-            align-self: center;
-            justify-content: center;
-            font-family: Helvetica;
-            text-align: center;
-        }
+    &--p1 {
+      align-self: flex-end;
+      height: 80px;
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
     }
 
-    &__center {
-        display:flex;
-        flex-direction: row;
-        height: 100%;
-        width: 50%;
-
-        &--p1 {
-            align-self: flex-end;
-            height:80px;
-            width: 50%;
-            display:flex;
-            align-items: flex-start;
-        }
-
-        &--p2 {
-            align-self: flex-end;
-            height:80px;
-            width: 50%;
-            display:flex;
-            align-items: flex-start;
-        }
+    &--p2 {
+      align-self: flex-end;
+      height: 80px;
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
     }
+  }
 
+  &__right {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
 
-
-    &__right {
-        display:flex;
-        margin-top: 5px;
-        flex-direction: column;
-
-        &__p2 {
-            color: white;
-            font-size: 20px;
-            align-self: center;
-            font-family: Helvetica;
-        }
-    }   
+    &__p2 {
+      color: white;
+      font-size: 20px;
+      align-self: center;
+      font-family: Helvetica;
+    }
+  }
 }
 
 .player-box {
-    height: 57px;
-    box-sizing: border-box;
+  height: 57px;
+  box-sizing: border-box;
 }
 
 .car {
-    display: flex;
-    width: 70px;
-    
+  display: flex;
+  width: 70px;
 }
 
 .car-select {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .choose {
-    color:white;
-    text-align: center;
-    font-family: Helvetica;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
 }
