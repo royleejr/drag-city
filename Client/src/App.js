@@ -193,21 +193,25 @@ class App extends React.Component {
                     className="car"
                     src={this.state.url.orange}
                     onClick={this.p1Orange}
+                    alt="orange car"
                   ></img>
                   <img
                     className="car"
                     src={this.state.url.purple}
                     onClick={this.p1Purple}
+                    alt="purple car"
                   ></img>
                   <img
                     className="car"
                     src={this.state.url.red}
                     onClick={this.p1Red}
+                    alt="red car"
                   ></img>
                   <img
                     className="car"
                     src={this.state.url.green}
                     onClick={this.p1Green}
+                    alt="green car"
                   ></img>
                 </div>
                 <div
@@ -230,14 +234,22 @@ class App extends React.Component {
                   className="container__center--p1"
                   style={this.state.p1Height}
                 >
-                  <img className="car" src={this.state.p1Car}></img>
+                  <img
+                    className="car"
+                    src={this.state.p1Car}
+                    alt="player 1 car"
+                  ></img>
                   <p></p>
                 </div>
                 <div
                   className="container__center--p2"
                   style={this.state.p2Height}
                 >
-                  <img className="car" src={this.state.p2Car}></img>
+                  <img
+                    className="car"
+                    src={this.state.p2Car}
+                    alt="player 2 car"
+                  ></img>
                 </div>
               </div>
               <div className="container__right">
@@ -247,21 +259,25 @@ class App extends React.Component {
                     className="car"
                     src={this.state.url.orange}
                     onClick={this.p2Orange}
+                    alt="orange car"
                   ></img>
                   <img
                     className="car"
                     src={this.state.url.purple}
                     onClick={this.p2Purple}
+                    alt="purple car"
                   ></img>
                   <img
                     className="car"
                     src={this.state.url.red}
                     onClick={this.p2Red}
+                    alt="red car"
                   ></img>
                   <img
                     className="car"
                     src={this.state.url.green}
                     onClick={this.p2Green}
+                    alt="green car"
                   ></img>
                 </div>
                 <div
