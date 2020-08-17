@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDice from 'react-dice-complete';
-import './dice.css';
+import React from "react";
+import ReactDice from "react-dice-complete";
+import "./dice.css";
 
 class Dice extends React.Component {
   state = {
-    initial: true
-  }
+    initial: true,
+  };
 
   componentDidMount = () => {
-    this.setState({initial: false})
-  }
+    this.setState({ initial: false });
+  };
   // rollAll() {
   //   this.reactDice.rollAll()
   // }
@@ -20,17 +20,17 @@ class Dice extends React.Component {
   // }
 
   render() {
-    console.log(this.props)
     return (
       <div>
         <ReactDice
           numDice="1"
           rollDone={(num) => {
-            this.props.p1Move(num, this.state.initial)}}
-          ref={dice => this.reactDice = dice}
+            this.props.p1Move(num, this.state.initial);
+          }}
+          ref={(dice) => (this.reactDice = dice)}
         />
       </div>
-    )
+    );
   }
 }
 
