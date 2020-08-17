@@ -37,7 +37,7 @@ class App extends React.Component {
   };
 
   componentDidMount = () => {
-    axios.get("http://localhost:8080").then((response) => {
+    axios.get("https://drag-city-server.herokuapp.com/").then((response) => {
       this.setState({
         url: response.data,
       });
