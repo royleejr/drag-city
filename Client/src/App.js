@@ -4,7 +4,6 @@ import axios from "axios";
 
 import Dice from "./components/dice/dice";
 import Dice2 from "./components/dice/dice2";
-import { tupleTypeAnnotation } from "@babel/types";
 
 class App extends React.Component {
   state = {
