@@ -36,6 +36,10 @@ class App extends React.Component {
   };
 
   componentDidMount = () => {
+    setTimeout(() => {
+      alert("please wait for heroku servers to awaken");
+    }, 3000);
+
     axios.get("https://drag-city-server.herokuapp.com/").then((response) => {
       this.setState({
         url: response.data,
