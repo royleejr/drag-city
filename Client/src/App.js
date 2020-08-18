@@ -233,22 +233,14 @@ class App extends React.Component {
                   className="container__center--p1"
                   style={this.state.p1Height}
                 >
-                  <img
-                    className="car"
-                    src={this.state.p1Car}
-                    alt="player 1 car"
-                  ></img>
+                  <img className="car" src={this.state.p1Car}></img>
                   <p></p>
                 </div>
                 <div
                   className="container__center--p2"
                   style={this.state.p2Height}
                 >
-                  <img
-                    className="car"
-                    src={this.state.p2Car}
-                    alt="player 2 car"
-                  ></img>
+                  <img className="car" src={this.state.p2Car}></img>
                 </div>
               </div>
               <div className="container__right">
